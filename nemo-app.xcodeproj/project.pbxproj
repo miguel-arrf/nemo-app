@@ -7,18 +7,75 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9099D0402A6B5B5200865D8A /* PlanBuilderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9099D03F2A6B5B5200865D8A /* PlanBuilderView.swift */; };
+		9099D0422A6C380B00865D8A /* PlanExecutorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9099D0412A6C380B00865D8A /* PlanExecutorModel.swift */; };
+		9099D0452A6C57E600865D8A /* RegisterUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9099D0442A6C57E600865D8A /* RegisterUser.swift */; };
+		9099D0482A6D4C8C00865D8A /* PersonaListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9099D0472A6D4C8C00865D8A /* PersonaListView.swift */; };
+		90A53B482A69A9CC00D3AE85 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A53B472A69A9CC00D3AE85 /* HomeView.swift */; };
+		90A53B4A2A69AA5300D3AE85 /* HomeCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A53B492A69AA5300D3AE85 /* HomeCardView.swift */; };
+		90A53B4C2A69D42C00D3AE85 /* UIScreen+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A53B4B2A69D42C00D3AE85 /* UIScreen+Extension.swift */; };
+		90A53B4E2A69DD1600D3AE85 /* OnboardingChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A53B4D2A69DD1600D3AE85 /* OnboardingChatView.swift */; };
+		90A53B502A69E87300D3AE85 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A53B4F2A69E87300D3AE85 /* API.swift */; };
+		90A53B532A69E8B800D3AE85 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A53B522A69E8B800D3AE85 /* Endpoint.swift */; };
+		90A53B552A69E8E900D3AE85 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A53B542A69E8E900D3AE85 /* Networking.swift */; };
+		90A53B572A69ECDD00D3AE85 /* OnboardingEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A53B562A69ECDD00D3AE85 /* OnboardingEndpoint.swift */; };
+		90A53B5A2A69F75300D3AE85 /* SwiftUISnappingScrollView in Frameworks */ = {isa = PBXBuildFile; productRef = 90A53B592A69F75300D3AE85 /* SwiftUISnappingScrollView */; };
+		90A53B5D2A69F8DF00D3AE85 /* HealthKitPopupCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A53B5C2A69F8DF00D3AE85 /* HealthKitPopupCardView.swift */; };
+		90A53B5F2A6AC5CD00D3AE85 /* Calendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A53B5E2A6AC5CD00D3AE85 /* Calendar.swift */; };
+		90A53B632A6B04DB00D3AE85 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A53B622A6B04DB00D3AE85 /* ChatView.swift */; };
+		90A53B652A6B10AA00D3AE85 /* ChatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A53B642A6B10AA00D3AE85 /* ChatModel.swift */; };
+		90A53B672A6B1A1600D3AE85 /* ChatCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A53B662A6B1A1600D3AE85 /* ChatCardView.swift */; };
+		90A53B6A2A6B2F4700D3AE85 /* PlanExecutorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A53B692A6B2F4700D3AE85 /* PlanExecutorView.swift */; };
+		90A53B6D2A6B393800D3AE85 /* PlanListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A53B6C2A6B393800D3AE85 /* PlanListView.swift */; };
+		90A53B6F2A6B3DDE00D3AE85 /* PlanModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A53B6E2A6B3DDE00D3AE85 /* PlanModels.swift */; };
+		90A53B712A6B539600D3AE85 /* PlanCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A53B702A6B539600D3AE85 /* PlanCardView.swift */; };
 		90AE9F5F2A68466600A41C13 /* nemo_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AE9F5E2A68466600A41C13 /* nemo_appApp.swift */; };
 		90AE9F612A68466600A41C13 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AE9F602A68466600A41C13 /* ContentView.swift */; };
 		90AE9F632A68466700A41C13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90AE9F622A68466700A41C13 /* Assets.xcassets */; };
 		90AE9F662A68466700A41C13 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90AE9F652A68466700A41C13 /* Preview Assets.xcassets */; };
+		90AE9F6F2A68473500A41C13 /* OnboardingIntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AE9F6E2A68473500A41C13 /* OnboardingIntroView.swift */; };
+		90AE9F712A68486000A41C13 /* OnboardingExplanationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AE9F702A68486000A41C13 /* OnboardingExplanationView.swift */; };
+		90AE9F732A684D4100A41C13 /* VariableBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AE9F722A684D4100A41C13 /* VariableBlurView.swift */; };
+		90AE9F752A68557600A41C13 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AE9F742A68557600A41C13 /* OnboardingView.swift */; };
+		90AE9F782A688A7A00A41C13 /* HealthKitDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AE9F772A688A7A00A41C13 /* HealthKitDataManager.swift */; };
+		90AE9F7C2A6896BE00A41C13 /* HKWorkoutActivityType+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AE9F7B2A6896BE00A41C13 /* HKWorkoutActivityType+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9099D03F2A6B5B5200865D8A /* PlanBuilderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanBuilderView.swift; sourceTree = "<group>"; };
+		9099D0412A6C380B00865D8A /* PlanExecutorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanExecutorModel.swift; sourceTree = "<group>"; };
+		9099D0442A6C57E600865D8A /* RegisterUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterUser.swift; sourceTree = "<group>"; };
+		9099D0472A6D4C8C00865D8A /* PersonaListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonaListView.swift; sourceTree = "<group>"; };
+		90A53B472A69A9CC00D3AE85 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		90A53B492A69AA5300D3AE85 /* HomeCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCardView.swift; sourceTree = "<group>"; };
+		90A53B4B2A69D42C00D3AE85 /* UIScreen+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScreen+Extension.swift"; sourceTree = "<group>"; };
+		90A53B4D2A69DD1600D3AE85 /* OnboardingChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingChatView.swift; sourceTree = "<group>"; };
+		90A53B4F2A69E87300D3AE85 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		90A53B522A69E8B800D3AE85 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		90A53B542A69E8E900D3AE85 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		90A53B562A69ECDD00D3AE85 /* OnboardingEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingEndpoint.swift; sourceTree = "<group>"; };
+		90A53B5C2A69F8DF00D3AE85 /* HealthKitPopupCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitPopupCardView.swift; sourceTree = "<group>"; };
+		90A53B5E2A6AC5CD00D3AE85 /* Calendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calendar.swift; sourceTree = "<group>"; };
+		90A53B602A6AFB0C00D3AE85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		90A53B622A6B04DB00D3AE85 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		90A53B642A6B10AA00D3AE85 /* ChatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatModel.swift; sourceTree = "<group>"; };
+		90A53B662A6B1A1600D3AE85 /* ChatCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatCardView.swift; sourceTree = "<group>"; };
+		90A53B692A6B2F4700D3AE85 /* PlanExecutorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanExecutorView.swift; sourceTree = "<group>"; };
+		90A53B6C2A6B393800D3AE85 /* PlanListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanListView.swift; sourceTree = "<group>"; };
+		90A53B6E2A6B3DDE00D3AE85 /* PlanModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanModels.swift; sourceTree = "<group>"; };
+		90A53B702A6B539600D3AE85 /* PlanCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanCardView.swift; sourceTree = "<group>"; };
 		90AE9F5B2A68466600A41C13 /* nemo-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "nemo-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90AE9F5E2A68466600A41C13 /* nemo_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nemo_appApp.swift; sourceTree = "<group>"; };
 		90AE9F602A68466600A41C13 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		90AE9F622A68466700A41C13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		90AE9F652A68466700A41C13 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		90AE9F6E2A68473500A41C13 /* OnboardingIntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingIntroView.swift; sourceTree = "<group>"; };
+		90AE9F702A68486000A41C13 /* OnboardingExplanationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingExplanationView.swift; sourceTree = "<group>"; };
+		90AE9F722A684D4100A41C13 /* VariableBlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VariableBlurView.swift; sourceTree = "<group>"; };
+		90AE9F742A68557600A41C13 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		90AE9F772A688A7A00A41C13 /* HealthKitDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitDataManager.swift; sourceTree = "<group>"; };
+		90AE9F792A688AB500A41C13 /* nemo-app.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "nemo-app.entitlements"; sourceTree = "<group>"; };
+		90AE9F7B2A6896BE00A41C13 /* HKWorkoutActivityType+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HKWorkoutActivityType+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,12 +83,87 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90A53B5A2A69F75300D3AE85 /* SwiftUISnappingScrollView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9099D0432A6C57D900865D8A /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				9099D0442A6C57E600865D8A /* RegisterUser.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		9099D0462A6D4C8400865D8A /* Persona */ = {
+			isa = PBXGroup;
+			children = (
+				9099D0472A6D4C8C00865D8A /* PersonaListView.swift */,
+			);
+			path = Persona;
+			sourceTree = "<group>";
+		};
+		90A53B462A69A9BF00D3AE85 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				90A53B472A69A9CC00D3AE85 /* HomeView.swift */,
+				90A53B492A69AA5300D3AE85 /* HomeCardView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		90A53B512A69E8AF00D3AE85 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				90A53B4F2A69E87300D3AE85 /* API.swift */,
+				90A53B522A69E8B800D3AE85 /* Endpoint.swift */,
+				90A53B542A69E8E900D3AE85 /* Networking.swift */,
+				90A53B562A69ECDD00D3AE85 /* OnboardingEndpoint.swift */,
+				90A53B642A6B10AA00D3AE85 /* ChatModel.swift */,
+				90A53B6E2A6B3DDE00D3AE85 /* PlanModels.swift */,
+				9099D0412A6C380B00865D8A /* PlanExecutorModel.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		90A53B5B2A69F8D200D3AE85 /* HealthKitCards */ = {
+			isa = PBXGroup;
+			children = (
+				90A53B5C2A69F8DF00D3AE85 /* HealthKitPopupCardView.swift */,
+			);
+			path = HealthKitCards;
+			sourceTree = "<group>";
+		};
+		90A53B612A6B04CF00D3AE85 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				90A53B622A6B04DB00D3AE85 /* ChatView.swift */,
+				90A53B662A6B1A1600D3AE85 /* ChatCardView.swift */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		90A53B682A6B2F3800D3AE85 /* PlanExecutor */ = {
+			isa = PBXGroup;
+			children = (
+				90A53B692A6B2F4700D3AE85 /* PlanExecutorView.swift */,
+			);
+			path = PlanExecutor;
+			sourceTree = "<group>";
+		};
+		90A53B6B2A6B392E00D3AE85 /* PlanBuilder */ = {
+			isa = PBXGroup;
+			children = (
+				90A53B6C2A6B393800D3AE85 /* PlanListView.swift */,
+				90A53B702A6B539600D3AE85 /* PlanCardView.swift */,
+				9099D03F2A6B5B5200865D8A /* PlanBuilderView.swift */,
+			);
+			path = PlanBuilder;
+			sourceTree = "<group>";
+		};
 		90AE9F522A68466600A41C13 = {
 			isa = PBXGroup;
 			children = (
@@ -51,10 +183,17 @@
 		90AE9F5D2A68466600A41C13 /* nemo-app */ = {
 			isa = PBXGroup;
 			children = (
+				90A53B602A6AFB0C00D3AE85 /* Info.plist */,
+				90A53B512A69E8AF00D3AE85 /* Networking */,
+				90AE9F7A2A6896AC00A41C13 /* Extensions */,
+				90AE9F792A688AB500A41C13 /* nemo-app.entitlements */,
+				90AE9F762A688A7000A41C13 /* Data */,
+				90AE9F6C2A68472800A41C13 /* Views */,
 				90AE9F5E2A68466600A41C13 /* nemo_appApp.swift */,
 				90AE9F602A68466600A41C13 /* ContentView.swift */,
 				90AE9F622A68466700A41C13 /* Assets.xcassets */,
 				90AE9F642A68466700A41C13 /* Preview Content */,
+				90AE9F722A684D4100A41C13 /* VariableBlurView.swift */,
 			);
 			path = "nemo-app";
 			sourceTree = "<group>";
@@ -65,6 +204,50 @@
 				90AE9F652A68466700A41C13 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		90AE9F6C2A68472800A41C13 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9099D0462A6D4C8400865D8A /* Persona */,
+				9099D0432A6C57D900865D8A /* Login */,
+				90A53B6B2A6B392E00D3AE85 /* PlanBuilder */,
+				90A53B682A6B2F3800D3AE85 /* PlanExecutor */,
+				90A53B612A6B04CF00D3AE85 /* Chat */,
+				90A53B5B2A69F8D200D3AE85 /* HealthKitCards */,
+				90A53B462A69A9BF00D3AE85 /* Home */,
+				90AE9F6D2A68472D00A41C13 /* Onboarding */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		90AE9F6D2A68472D00A41C13 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				90AE9F6E2A68473500A41C13 /* OnboardingIntroView.swift */,
+				90AE9F702A68486000A41C13 /* OnboardingExplanationView.swift */,
+				90AE9F742A68557600A41C13 /* OnboardingView.swift */,
+				90A53B4D2A69DD1600D3AE85 /* OnboardingChatView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		90AE9F762A688A7000A41C13 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				90AE9F772A688A7A00A41C13 /* HealthKitDataManager.swift */,
+				90A53B5E2A6AC5CD00D3AE85 /* Calendar.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		90AE9F7A2A6896AC00A41C13 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				90AE9F7B2A6896BE00A41C13 /* HKWorkoutActivityType+Extension.swift */,
+				90A53B4B2A69D42C00D3AE85 /* UIScreen+Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +266,9 @@
 			dependencies = (
 			);
 			name = "nemo-app";
+			packageProductDependencies = (
+				90A53B592A69F75300D3AE85 /* SwiftUISnappingScrollView */,
+			);
 			productName = "nemo-app";
 			productReference = 90AE9F5B2A68466600A41C13 /* nemo-app.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +297,9 @@
 				Base,
 			);
 			mainGroup = 90AE9F522A68466600A41C13;
+			packageReferences = (
+				90A53B582A69F75300D3AE85 /* XCRemoteSwiftPackageReference "SwiftUISnappingScrollView" */,
+			);
 			productRefGroup = 90AE9F5C2A68466600A41C13 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +326,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90A53B632A6B04DB00D3AE85 /* ChatView.swift in Sources */,
+				90A53B532A69E8B800D3AE85 /* Endpoint.swift in Sources */,
+				90A53B5F2A6AC5CD00D3AE85 /* Calendar.swift in Sources */,
+				90A53B482A69A9CC00D3AE85 /* HomeView.swift in Sources */,
+				90A53B4E2A69DD1600D3AE85 /* OnboardingChatView.swift in Sources */,
+				90A53B712A6B539600D3AE85 /* PlanCardView.swift in Sources */,
+				90AE9F6F2A68473500A41C13 /* OnboardingIntroView.swift in Sources */,
+				9099D0482A6D4C8C00865D8A /* PersonaListView.swift in Sources */,
+				90A53B502A69E87300D3AE85 /* API.swift in Sources */,
 				90AE9F612A68466600A41C13 /* ContentView.swift in Sources */,
+				90A53B6A2A6B2F4700D3AE85 /* PlanExecutorView.swift in Sources */,
+				90A53B552A69E8E900D3AE85 /* Networking.swift in Sources */,
+				9099D0402A6B5B5200865D8A /* PlanBuilderView.swift in Sources */,
+				90A53B672A6B1A1600D3AE85 /* ChatCardView.swift in Sources */,
+				9099D0452A6C57E600865D8A /* RegisterUser.swift in Sources */,
+				90A53B6D2A6B393800D3AE85 /* PlanListView.swift in Sources */,
+				90A53B572A69ECDD00D3AE85 /* OnboardingEndpoint.swift in Sources */,
+				90A53B4C2A69D42C00D3AE85 /* UIScreen+Extension.swift in Sources */,
+				90A53B6F2A6B3DDE00D3AE85 /* PlanModels.swift in Sources */,
+				90AE9F732A684D4100A41C13 /* VariableBlurView.swift in Sources */,
+				90A53B5D2A69F8DF00D3AE85 /* HealthKitPopupCardView.swift in Sources */,
+				90AE9F752A68557600A41C13 /* OnboardingView.swift in Sources */,
+				90A53B4A2A69AA5300D3AE85 /* HomeCardView.swift in Sources */,
+				90A53B652A6B10AA00D3AE85 /* ChatModel.swift in Sources */,
 				90AE9F5F2A68466600A41C13 /* nemo_appApp.swift in Sources */,
+				9099D0422A6C380B00865D8A /* PlanExecutorModel.swift in Sources */,
+				90AE9F7C2A6896BE00A41C13 /* HKWorkoutActivityType+Extension.swift in Sources */,
+				90AE9F712A68486000A41C13 /* OnboardingExplanationView.swift in Sources */,
+				90AE9F782A688A7A00A41C13 /* HealthKitDataManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,12 +480,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "nemo-app/nemo-app.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_ASSET_PATHS = "\"nemo-app/Preview Content\"";
 				DEVELOPMENT_TEAM = J85899W596;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "nemo-app/Info.plist";
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "We need access to your calendar to provide helpful insights about when you should execute your plans.";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "We need your data to provide you helpful insights :)";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "We now need access to more data. Thank you!";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We need access to your microphone to help you do your Physical Therapy plans.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "We need access to your speech to help you do your Physical Therapy plans.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -293,12 +516,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "nemo-app/nemo-app.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_ASSET_PATHS = "\"nemo-app/Preview Content\"";
 				DEVELOPMENT_TEAM = J85899W596;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "nemo-app/Info.plist";
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "We need access to your calendar to provide helpful insights about when you should execute your plans.";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "We need your data to provide you helpful insights :)";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "We now need access to more data. Thank you!";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We need access to your microphone to help you do your Physical Therapy plans.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "We need access to your speech to help you do your Physical Therapy plans.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -339,6 +569,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		90A53B582A69F75300D3AE85 /* XCRemoteSwiftPackageReference "SwiftUISnappingScrollView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ciaranrobrien/SwiftUISnappingScrollView?ref=iosexample.com";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		90A53B592A69F75300D3AE85 /* SwiftUISnappingScrollView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 90A53B582A69F75300D3AE85 /* XCRemoteSwiftPackageReference "SwiftUISnappingScrollView" */;
+			productName = SwiftUISnappingScrollView;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 90AE9F532A68466600A41C13 /* Project object */;
 }
